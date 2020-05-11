@@ -1,0 +1,142 @@
+@import url(
+    http://fonts.googleapis.com/css?family=Open + Sans:400,
+    700&subset=latin,
+    vietnamese
+);
+@import url(
+    http://fonts.googleapis.com/css?family=Roboto + Condensed:700,
+    400,
+    300&subset=latin,
+    vietnamese
+);
+/*-- author:phongbv@hurama.com --*/
+.icon {
+    background: url(../images/icon_page.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+}
+.icon.icon_home {
+    background-position: 0 0;
+    height: 16px;
+    width: 20px;
+}
+.icon.icon_user {
+    background-position: -23px 0;
+    height: 16px;
+    width: 17px;
+}
+.icon.icon_cart {
+    background-position: -43px 0;
+    height: 17px;
+    width: 18px;
+}
+.icon_down {
+    background: url(../images/icon_down.png) no-repeat scroll 0 0
+        rgba(0, 0, 0, 0);
+    height: 6px;
+    width: 8px;
+}
+.icon.icon_camket {
+    background-position: 0 -25px;
+    height: 33px;
+    width: 23px;
+}
+.icon.icon_giaohang {
+    background-position: -31px -25px;
+    height: 31px;
+    width: 51px;
+}
+.icon.icon_thanhtoan {
+    background-position: -89px -25px;
+    height: 33px;
+    width: 35px;
+}
+.icon.icon_doitra {
+    background-position: -128px -25px;
+    height: 33px;
+    width: 22px;
+}
+.icon.icon_support {
+    background: url(../images/icon_supporter.png) no-repeat scroll 0 0
+        rgba(0, 0, 0, 0);
+    height: 57px;
+    width: 57px;
+}
+.icon.icon_yahoo {
+    background-position: -155px -27px;
+    height: 28px;
+    width: 31px;
+}
+.icon.icon_down_menu {
+    background: url(../images/ico.png) no-repeat 0 0;
+    height: 7px;
+    width: 14px;
+}
+.icon.icon_facebook {
+    background-position: 0 -66px;
+    height: 32px;
+    width: 32px;
+}
+.icon.icon_youtube {
+    background-position: -38px -66px;
+    height: 32px;
+    width: 32px;
+}
+.icon.icon_google {
+    background-position: -75px -66px;
+    height: 32px;
+    width: 32px;
+}
+.icon.icon_customer {
+    background-position: -112px -66px;
+    height: 32px;
+    width: 32px;
+}
+
+.box_content {
+    cursor: pointer;
+    float: left;
+    line-height: 16px;
+    margin-right: 10px;
+    width: 145px;
+}
+
+.box_hour {
+    /* position: absolute;
+    right: 140px; */
+    top: 20px;
+}
+.txt_b {
+    font-weight: bold;
+}
+.txt_14 {
+    font-size: 14px;
+}
+.txt_yellow {
+    color: rgb(254, 120, 1);
+}
+.txt_center {
+    text-align: center;
+}
+.cufon {
+    font-family: "Open Sans", sans-serif;
+}
+.txt_25 {
+    font-size: 25px;
+}
+.txt_blue {
+    color: rgb(0, 93, 171);
+}
+.bg-cl {
+    color: #005dac;
+}
+
+.number_online {
+    position: absolute;
+    left: 630px;
+    top: 2px;
+    color: #fff;
+    line-height: 17px;
+}
+.number_online .itm {
+    padding-right: 30px;
+}
